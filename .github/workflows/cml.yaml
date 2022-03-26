@@ -1,8 +1,5 @@
 name: CML
-on:
-  push:
-    branches:    
-      - 'experiment'
+on: [push]
 jobs:
   run:
     runs-on: ubuntu-latest
